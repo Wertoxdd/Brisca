@@ -29,8 +29,8 @@ public class ListaCartas {
 
 
     public Carta eliminarCarta(int pos){
-        if (pos >= 0 && posicion < this.tamaño()){
-            return this.cartas.remove(posicion);
+        if (pos >= 0 && pos < this.tamaño()){
+            return this.cartas.remove(pos);
         }
         return null;
     }

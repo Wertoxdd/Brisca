@@ -35,6 +35,7 @@ public class ListaCartas {
         return null;
     }
 
+
     public void resetear(){
         this.cartas.clear();
     }

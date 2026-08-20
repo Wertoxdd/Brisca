@@ -1,19 +1,27 @@
 public class Carta {
+
+    // -------------- Atributos --------------
     private Palo palo;
     private int valor;
 
+
+    // -------------- Constructora --------------
     public Carta(Palo pPalo, int pValor){
         this.palo = pPalo;
         this.valor = pValor;
     }
 
+
+    // -------------- Metodos --------------
     public Palo getPalo(){
         return this.palo;
     }
 
+
     public int getValor(){
         return this.valor;
     }
+
 
     @Override
     public String toString(){

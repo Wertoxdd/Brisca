@@ -72,5 +72,5 @@ public class Mazo extends ListaCartas {
     }
 
 
-    //TODO metodo resetear mazo
+    //TODO metodo resetear mazo, pero falta ListaJugadores y Jugador.
 }
